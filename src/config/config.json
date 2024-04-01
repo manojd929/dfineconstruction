@@ -1,0 +1,69 @@
+{
+  "company": {
+    "name": "D-Fine Construction",
+    "motto": "You Dream It, We Build It.",
+    "description": "The one stop solution for all your construction needs. We will provide end to end services from plans to turn key project with 20+ years of experience.",
+    "gstin": "29DHYPM3015B1Z7",
+    "email": "defineconstructions@gmail.com",
+    "contact": "tel:+91 8095141717",
+    "whatsapp": "https://api.whatsapp.com/send/?phone=918095141717&text&type=phone_number",
+    "address": "#58, 80 Feet Road, B.E.M.L Layout, R.R nagar, Bengaluru - 560091"
+  },
+  "social": [
+    {
+      "type": "whatsapp",
+      "value": "https://api.whatsapp.com/send/?phone=918095141717&text&typephone_number",
+      "displayText": "+91-8095141717"
+    },
+    {
+      "type": "email",
+      "value": "mailto:defineconstructions@gmail.com",
+      "displayText": "defineconstructions@gmail.com"
+    },
+    {
+      "type": "phone",
+      "value": "tel:+918095141717",
+      "displayText": "+91-8095141717"
+    },
+    {
+      "type": "instagram",
+      "value": "https://www.instagram.com/defineconstructions/",
+      "displayText": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "",
+      "description": "",
+      "testimonial": "",
+      "address": "",
+      "images": ""
+    }
+  ],
+  "services": [
+    {
+      "name": "Building Plan",
+      "description": ""
+    },
+    {
+      "name": "Construction",
+      "description": ""
+    },
+    {
+      "name": "Structural Design",
+      "description": ""
+    },
+    {
+      "name": "Elevation",
+      "description": ""
+    },
+    {
+      "name": "Interior Design",
+      "description": ""
+    },
+    {
+      "name": "Landscaping",
+      "description": ""
+    }
+  ]
+}
