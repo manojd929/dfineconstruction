@@ -1,0 +1,25 @@
+.bannerSection {
+  color: var(--white-color);
+  background-color: var(--secondary-color);
+  position: relative;
+  text-align: center;
+
+
+  .bannerSocialLink {
+    display: inline-block;
+
+    .bannerSocialLinkText {
+      display: inline;
+      position: relative;
+      bottom: 0.3rem;
+      margin-left: 4px;
+      margin-right: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .bannerSection {
+    display: none;
+  }
+}

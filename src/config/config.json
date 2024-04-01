@@ -9,15 +9,35 @@
     "whatsapp": "https://api.whatsapp.com/send/?phone=918095141717&text&type=phone_number",
     "address": "#58, 80 Feet Road, B.E.M.L Layout, R.R nagar, Bengaluru - 560091"
   },
-  "social": {
-    "instagram": "https://www.instagram.com/defineconstructions/"
-  },
+  "social": [
+    {
+      "type": "whatsapp",
+      "value": "https://api.whatsapp.com/send/?phone=918095141717&text&typephone_number",
+      "displayText": "+91-8095141717"
+    },
+    {
+      "type": "email",
+      "value": "mailto:defineconstructions@gmail.com",
+      "displayText": "defineconstructions@gmail.com"
+    },
+    {
+      "type": "phone",
+      "value": "tel:+918095141717",
+      "displayText": "+91-8095141717"
+    },
+    {
+      "type": "instagram",
+      "value": "https://www.instagram.com/defineconstructions/",
+      "displayText": ""
+    }
+  ],
   "projects": [
     {
       "name": "",
       "description": "",
       "testimonial": "",
-      "address": ""
+      "address": "",
+      "images": ""
     }
   ],
   "services": [

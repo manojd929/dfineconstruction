@@ -14,3 +14,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+:root {
+  --primary-color: #50A4E2;
+  --secondary-color: #214B8D;
+  --white-color: #fff;
+}
