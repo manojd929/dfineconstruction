@@ -2,9 +2,9 @@ import styles from './page.module.css'
 
 const Contact = () => {
   return (
-    <main>
+    <div>
       Contact Page
-    </main>
+    </div>
   )
 }
 
