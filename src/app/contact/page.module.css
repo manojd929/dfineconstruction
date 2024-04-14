@@ -1,0 +1,11 @@
+.contactContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contactCard {
+  padding: 4rem;
+  height: 200px;
+  width: 200px;
+}

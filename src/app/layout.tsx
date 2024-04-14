@@ -26,9 +26,9 @@ export default function RootLayout({
         <meta name="description" content={metadata.description as string} />
       </head>
       <body className={inter.className}>
+        <Banner />
         <Header />
         <main className={styles.mainContainer}>
-          <Banner />
           <section>
             {children}
           </section>
