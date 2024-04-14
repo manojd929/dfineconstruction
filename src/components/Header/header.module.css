@@ -1,0 +1,16 @@
+.appHeader {
+  position: relative !important;
+}
+
+.companyLogoImage {
+  margin-right: 0.5rem;
+  width: 36px;
+  height: 32px;
+}
+
+@media (max-width: 700px) {
+  .companyLogoImage {
+    position: relative;
+    left: -1rem;
+  }
+}

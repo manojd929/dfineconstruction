@@ -4,7 +4,6 @@
   position: relative;
   text-align: center;
 
-
   .bannerSocialLink {
     display: inline-block;
 
@@ -18,7 +17,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 650px) {
   .bannerSection {
     display: none;
   }

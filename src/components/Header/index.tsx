@@ -1,17 +1,22 @@
 'use client';
 import React from 'react'
 import Link from 'next/link';
+import Image from 'next/image';
 import { Divider, AppBar, Drawer, Button, Box, Typography, List, ListItem, ListItemButton, ListItemText, Toolbar, IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import CompanyLogoImage from 'public/logo.png'
 import { NAV_ITEMS } from "@/constants";
 import CONFIG from '@/config/config.json'
 import styles from './header.module.css'
+import { usePathname } from 'next/navigation';
 
 const DRAWER_WIDTH = 400
 
 const Header = (props: any) => {
   const { company } = CONFIG
   const { window } = props;
+  const pathname = usePathname();
+
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const container = window !== undefined ? () => window().document.body : undefined;
 
@@ -29,7 +34,14 @@ const Header = (props: any) => {
         {NAV_ITEMS.map((item) => (
           <ListItem key={item.label} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
-              <Link href={item.link}><ListItemText primary={item.label} /></Link>
+              <Link href={item.link}>
+                <ListItemText
+                  style={pathname === item.link ? {
+                    textDecoration: 'underline'
+                  } : {}}
+                  primary={item.label}
+                />
+              </Link>
             </ListItemButton>
           </ListItem>
         ))}
@@ -38,8 +50,8 @@ const Header = (props: any) => {
   )
 
   return (
-    <header>
-      <AppBar component="nav">
+    <>
+      <AppBar component="nav" className={styles.appHeader}>
         <Toolbar>
           <IconButton
             color="inherit"
@@ -50,6 +62,13 @@ const Header = (props: any) => {
           >
             <MenuIcon />
           </IconButton>
+          <Link href="/">
+            <Image
+              src={CompanyLogoImage}
+              alt={'DFine Constructions Logo'}
+              className={styles.companyLogoImage}
+            />
+          </Link>
           <Typography
             variant="h6"
             component="div"
@@ -60,13 +79,20 @@ const Header = (props: any) => {
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {NAV_ITEMS.map((item) => (
               <Button key={item.label} sx={{ color: '#fff' }}>
-                <Link href={item.link}>{item.label}</Link>
+                <Link
+                  href={item.link}
+                  style={pathname === item.link ? {
+                    textDecoration: 'underline'
+                  } : {}}
+                >
+                  {item.label}
+                </Link>
               </Button>
             ))}
           </Box>
         </Toolbar>
-      </AppBar>
-      <nav>
+      </AppBar >
+      <nav className={styles.appHeader}>
         <Drawer
           container={container}
           variant="temporary"
@@ -83,7 +109,7 @@ const Header = (props: any) => {
           {drawer}
         </Drawer>
       </nav>
-    </header>
+    </>
   )
 }
 
