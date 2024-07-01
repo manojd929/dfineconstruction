@@ -4,23 +4,19 @@ export const NAV_ITEMS = [
     link: '/'
   },
   {
-    label: 'About Us',
-    link: '/about'
-  },
-  {
-    label: 'Services',
-    link: '/services'
-  },
-  {
     label: 'Projects',
     link: '/projects'
   },
   {
-    label: 'FAQ',
-    link: '/faq'
+    label: 'About Us',
+    link: '/about'
   },
   {
     label: 'Contact us',
     link: '/contact'
+  },
+  {
+    label: 'Services',
+    link: '/services'
   }
 ]

@@ -1,6 +1,6 @@
 import { Link } from '@mui/material';
 import CONFIG from '@/config/config.json'
-import getSocialIcon from '@/utils/getSocialIcon';
+import SocialIcon from '@/components/SocialIcon';
 import styles from './banner.module.css'
 
 const Banner = () => {
@@ -17,7 +17,7 @@ const Banner = () => {
               href={link.value}
               target='__blank'
             >
-              {getSocialIcon(link.type)}<div className={styles.bannerSocialLinkText}>{link.displayText}</div>
+              {SocialIcon(link.type)}<div className={styles.bannerSocialLinkText}>{link.displayText}</div>
             </Link>
           </div>
         ))}
