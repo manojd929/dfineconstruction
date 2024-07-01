@@ -2,13 +2,13 @@
 import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import { Divider, AppBar, Drawer, Button, Box, Typography, List, ListItem, ListItemButton, ListItemText, Toolbar, IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import CompanyLogoImage from 'public/logo.png'
 import { NAV_ITEMS } from "@/constants";
 import CONFIG from '@/config/config.json'
 import styles from './header.module.css'
-import { usePathname } from 'next/navigation';
 
 const DRAWER_WIDTH = 400
 
@@ -34,7 +34,7 @@ const Header = (props: any) => {
         {NAV_ITEMS.map((item) => (
           <ListItem key={item.label} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
-              <Link href={item.link}>
+              <Link href={item.link} className={styles.headerLinks}>
                 <ListItemText
                   style={pathname === item.link ? {
                     textDecoration: 'underline'
