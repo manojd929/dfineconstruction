@@ -1,4 +1,4 @@
-.homeBgContent {
+.homeBgContainer {
   position: relative;
   top: 45%;
   left: 50%;
@@ -20,6 +20,46 @@
     font-weight: bold;
     margin: 1rem;
   }
+}
+
+.estimateContainer {
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+
+  background-color: var(--primary-color);
+  min-height: 30vh;
+
+  .costQuestion {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--white-color);
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .estimateButton {
+    position: absolute;
+    font-weight: bold;
+    padding: 8px;
+    top: 100%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.servicesContainer {
+  background-color: var(--white-color);
+  padding: 4rem 2rem;
+
+  .servicesHeader {
+    margin-bottom: 2rem;
+  }
+}
+
+.recentWorksContainer {
+  
 }
 
 /* Tablet and Smaller Desktop */
