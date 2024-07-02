@@ -1,6 +1,6 @@
 .bannerSection {
-  color: var(--white-color);
   background-color: var(--secondary-color);
+  color: var(--white-color);
   position: relative;
   text-align: center;
 
@@ -11,13 +11,13 @@
       display: inline;
       position: relative;
       bottom: 0.3rem;
-      margin-left: 4px;
+      margin-left: 0.25rem;
       margin-right: 1.5rem;
     }
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   .bannerSection {
     display: none;
   }

@@ -7,8 +7,8 @@ const Banner = () => {
   const { social } = CONFIG
 
   return (
-    <section className={styles.bannerSection}>
-      <div className={styles.bannerSocialLinks}>
+    <div className={styles.bannerSection}> 
+      <div className={styles.bannerSocialLinks} >
         {social.map((link) => (
           <div key={link.type} className={styles.bannerSocialLink}>
             <Link
@@ -22,7 +22,7 @@ const Banner = () => {
           </div>
         ))}
       </div>
-    </section>
+    </div>
   )
 }
 

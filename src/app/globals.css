@@ -2,6 +2,11 @@
   --primary-color: #50A4E2;
   --secondary-color: #214B8D;
   --white-color: #fff;
+  --grey-color: #fbfbfb;
+  font-size: 16px;
+  --mobile-breakpoint: 425px;
+  --tablet-breakpoint: 768px;
+  --laptop-breakpoint: 1024px;
 }
 
 * {
@@ -12,8 +17,6 @@
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 

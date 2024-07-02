@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import BackgroundComp from "@/components/BackgroundComp";
 import config from '@/config/config.json';
 import { Button, Card, CardContent, CardHeader, Grid, Typography, Link } from "@mui/material";
 import styles from "./page.module.css";
@@ -9,7 +8,7 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <section>
-        <BackgroundComp>
+        <div className={styles.backgroundCompContainer}>
           <div className={styles.homeBgContainer}>
             <p className={styles.motto}>{company.motto}</p>
             <p className={styles.description}>{company.description}</p>
@@ -20,7 +19,7 @@ export default function Home() {
                   underline='none'
                   href={social[0].value}
                   target='__blank'
-                >Talk to our architects now
+                >Talk to our architects
                 </Link>
               </Button>
               <Button className={styles.primaryButton} variant='contained' size="large" color="primary">
@@ -28,7 +27,7 @@ export default function Home() {
               </Button>
             </div>
           </div>
-        </BackgroundComp>
+        </div>
       </section>
       <section>
         <div className={styles.estimateContainer}>
@@ -55,7 +54,7 @@ export default function Home() {
           <Grid container spacing={6}>
             {services.map((svc, index) => (
               <Grid key={svc.name + index} item xs={12} md={4} lg={4} >
-                <Card variant="outlined" className={styles.serviceCard}>
+                <Card variant="outlined" className={styles.serviceCard} raised>
                   <Image className={styles.serviceIcon} src={svc.icon} height={48} width={48} alt={svc.name + ' icon'} />
                   <CardHeader title={svc.name} className={styles.serviceCardHeader} />
                   <CardContent className={styles.serviceCardContent}>
@@ -68,9 +67,33 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <div className={styles.recentWorksContainer}>
+        <div className={styles.recentProjectsContainer}>
+          <Typography variant="h4" align="center" className={styles.recentProjectsHeader}>
+              Our Recent Projects
+          </Typography>
         </div>
       </section>
+      <section>
+        <div className={styles.packagesContainer}>
+          <Typography variant="h4" align="center" className={styles.packagesHeader}>
+              Our Construction Packages
+          </Typography>
+        </div>
+      </section>
+      <section>
+        <div className={styles.partnersContainer}>
+          <Typography variant="h4" align="center" className={styles.partnersHeader}>
+              Our Trusted Partners
+          </Typography>
+        </div>
+      </section>
+      <section>
+        <div className={styles.benefitsContainer}>
+          <Typography variant="h4" align="center" className={styles.benefitsHeader}>
+              What you get ?
+          </Typography>
+        </div>
+        </section>
     </div >
   );
 }

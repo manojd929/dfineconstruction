@@ -1,26 +1,42 @@
-.homeBgContainer {
-  position: relative;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -45%);
+.primaryButton {
+  font-weight: bold;
+  margin: 1rem;
+  padding: 0.75rem 1.2rem;
+}
 
-  .motto {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    margin-bottom: 2rem;
-  }
+.backgroundCompContainer {
+  height: 100%;
+  width: 100%;
+  background-image: url("/background/bg-7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
 
-  .description {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
-  }
+  color: var(--white-color);
+  text-align: center;
 
-  .primaryButton {
-    font-weight: bold;
-    margin: 1rem;
+  .homeBgContainer {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    padding: 25%;
+  
+    .motto {
+      font-size: 2rem;
+      font-weight: bolder;
+      margin-bottom: 2rem;
+    }
+  
+    .description {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
   }
 }
+
 
 .estimateContainer {
   position: relative;
@@ -43,18 +59,16 @@
 
   .estimateButton {
     position: absolute;
-    font-weight: bold;
-    padding: 8px;
     top: 100%;
     transform: translate(-50%, -50%);
     z-index: 1;
+    font-weight: bold;
+    padding: 0.75rem 1.2rem;
   }
 }
 
 .servicesContainer {
-  background-color: var(--primary-color);
-  color: var(--white-color);
-  padding: 4rem 2rem;
+  padding: 4rem 4rem;
   border-bottom: 1px solid var(--white-color);
 
   .servicesHeader {
@@ -63,9 +77,8 @@
 
   .serviceCard {
     padding: 1rem;
-    background-color: var(--secondary-color);
     text-align: center;
-    color: var(--white-color);
+    min-height: 24rem;
 
     .serviceCardHeader {
       text-align: center;
@@ -77,16 +90,61 @@
   }
 }
 
-/* Tablet and Smaller Desktop */
-@media (max-width: 1120px) {
+.recentProjectsContainer {
+  padding: 4rem 4rem;
+  min-height: 90vh;
+  background-color: var(--grey-color);
+
+  .recentProjectsHeader {
+    margin-bottom: 2rem;
+  }
+}
+
+.packagesContainer {
+  padding: 4rem 4rem;
+  min-height: 90vh;
+  background-color: var(--white-color);
+
+  .packagesHeader {
+    margin-bottom: 2rem;
+  }
+}
+
+.partnersContainer {
+  padding: 4rem 4rem;
+  min-height: 50vh;
+  background-color: var(--grey-color);
+
+  .partnersHeader {
+    margin-bottom: 2rem;
+  }
+}
+
+.benefitsContainer {
+  padding: 4rem 4rem;
+  min-height: 40vh;
+  background-color: var(--white-color);
+
+  .benefitsHeader {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
   .motto {
     font-size: 1rem;
+  }
+
+  .backgroundCompContainer {
+    min-height: 85vh;
+    padding: 1.5rem;
   }
 }
 
 
 /* Mobile */
-@media (max-width: 700px) {
+@media (max-width: 425px) {
   .motto {
     font-size: 0.8rem;
   }

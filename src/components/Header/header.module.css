@@ -4,15 +4,15 @@
 
 .companyLogoImage {
   margin-right: 0.5rem;
-  width: 36px;
-  height: 32px;
+  width: 2.5rem;
+  height: 2rem;
 }
 
 .headerLinks {
   font-size: 1.2rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .companyLogoImage {
     position: relative;
     left: -1rem;
