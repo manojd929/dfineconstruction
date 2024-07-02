@@ -27,8 +27,9 @@
   text-align: center;
   vertical-align: middle;
 
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   min-height: 30vh;
+  border-bottom: 1px solid var(--white-color);
 
   .costQuestion {
     position: absolute;
@@ -46,20 +47,34 @@
     padding: 8px;
     top: 100%;
     transform: translate(-50%, -50%);
+    z-index: 1;
   }
 }
 
 .servicesContainer {
-  background-color: var(--white-color);
+  background-color: var(--primary-color);
+  color: var(--white-color);
   padding: 4rem 2rem;
+  border-bottom: 1px solid var(--white-color);
 
   .servicesHeader {
     margin-bottom: 2rem;
   }
-}
 
-.recentWorksContainer {
-  
+  .serviceCard {
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    text-align: center;
+    color: var(--white-color);
+
+    .serviceCardHeader {
+      text-align: center;
+    }
+
+    .serviceCardContent {
+      text-align: left;
+    }
+  }
 }
 
 /* Tablet and Smaller Desktop */

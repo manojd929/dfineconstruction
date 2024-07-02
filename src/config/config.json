@@ -48,27 +48,39 @@
   "services": [
     {
       "name": "Building Plan",
+      "icon": "/icons/planning.png",
+      "short_desc": "Detailed set of drawings and documents that communicate the design, specifications, and construction requirements for a building project. Drawings depict the overall layout, dimensions, and spatial organization of the building. They include floor plans for each level, showing the arrangement of rooms, circulation areas, and structural elements.",
       "description": "A building plan, also known as a construction plan or blueprints, is a detailed set of drawings and documents that communicate the design, specifications, and construction requirements for a building project. Drawings depict the overall layout, dimensions, and spatial organization of the building. They include floor plans for each level, showing the arrangement of rooms, circulation areas, and structural elements. Other architectural drawings may include elevations (exterior views), sections (vertical cutaway views), and details (enlarged views of specific building components). We provide site plan (Typically includes property lines, setbacks, access roads, parking areas, landscaping, drainage features, and utility connections), structural drawings (Detail the structural components of the building, such as foundations, columns, beams, slabs, walls, and roof framing. ), MEP drawings (Illustrate the layout and specifications for mechanical, electrical, plumbing, and fire protection systems within the building) "
     },
     {
-      "name": "Building Construction",
-      "description": "Building construction is the process of assembling materials, labor, and equipment to erect a structure according to architectural and engineering plans. It involves several stages, each essential for the successful completion of the project. Site preparation like clearing debris, Excavation, Laying Footings and Foundations, Building frames, roof, exterior walls, Framing windows, doors, interior walls and ceilings, Electrical and Plumbing installations to complete interior finishing we take care of all."
+      "name": "Construction & Renovation",
+      "icon": "/icons/construction.png",
+      "short_desc": "Site preparation like clearing Debris, Excavation, Laying Footings and Foundations, Building frames, Roof, Exterior walls, Framing windows, Doors, Interior walls and ceilings, Electrical and Plumbing installations to complete Interior finishing we take care of all including renovation.",
+      "description": "Building construction is the process of assembling materials, labor, and equipment to erect a structure according to architectural and engineering plans. It involves several stages, each essential for the successful completion of the project. Site preparation like clearing Debris, Excavation, Laying Footings and Foundations, Building frames, roof, exterior walls, Framing windows, doors, interior walls and ceilings, Electrical and Plumbing installations to complete interior finishing we take care of all."
     },
     {
       "name": "Structural Design",
+      "icon": "/icons/structure.png",
+      "short_desc": "Analysis, planning, and design of structures to ensure they are safe, stable, and capable of withstanding various loads and environmental conditions. Factors such as soil conditions, seismic activity, wind loads, and environmental considerations are evaluated.",
       "description": "This involves the analysis, planning, and design of structures to ensure they are safe, stable, and capable of withstanding various loads and environmental conditions. Factors such as soil conditions, seismic activity, wind loads, and environmental considerations are evaluated. Using advanced software tools and engineering principles, we perform detailed analysis which includes calculating loads (such as gravity loads, wind loads, snow loads, etc.) and evaluating the structural response to ensure it meets safety and performance criteria."
     },
     {
       "name": "Elevation Design",
+      "icon": "/icons/elevation.png",
+      "short_desc": "Focuses on the aesthetic appearance and architectural character of a building's exterior considering factors such as architectural style, building function, site context, and client preferences. The choice of materials affects the building's aesthetics, durability, maintenance requirements, and sustainability. Selecting an appropriate color palette for the building's exterior is crucial in elevation design.",
       "description": "Elevation design, also known as façade design or exterior design, focuses on the aesthetic appearance and architectural character of a building's exterior considering factors such as architectural style, building function, site context, and client preferences. The choice of materials affects the building's aesthetics, durability, maintenance requirements, and sustainability. Selecting an appropriate color palette for the building's exterior is crucial in elevation design. We consider factors such as building materials, surrounding context, climate, cultural influences, and branding requirements when choosing colors for walls, trim, accents, and other elements."
     },
     {
       "name": "Interior Design",
+      "icon": "/icons/interior.png",
+      "short_desc": "We focus on creating functional, aesthetically pleasing, and well-designed interior spaces that enhance the quality of life and user experience. We select furniture, fixtures, and equipment (FF&E) that suit the style, function, and scale of the interior space.", 
       "description": "We focus on creating functional, aesthetically pleasing, and well-designed interior spaces that enhance the quality of life and user experience. We select furniture, fixtures, and equipment (FF&E) that suit the style, function, and scale of the interior space. This includes choosing sofas, chairs, tables, beds, storage units, lighting fixtures, window treatments, and decorative accessories that enhance the aesthetic appeal and usability of the space. We consider factors such as ergonomics, accessibility, natural light, views, and architectural features when determining the optimal layout for each space."
     },
     {
       "name": "Landscaping",
-      "description": "Landscaping refers to the planning, design, installation, and maintenance of outdoor spaces, including gardens, yards, parks, and commercial landscapes. It involves the strategic arrangement of plants, hardscape elements, water features, and other outdoor amenities to create functional, aesthetic, and environmentally sustainable environments/"
+      "icon": "/icons/landscaping.png",
+      "short_desc": "Landscaping refers to the planning, design, installation, and maintenance of outdoor spaces, fincluding gardens, yards, parks, and commercial landscapes. It involves the strategic arrangement of plants, hardscape elements, water features, and other outdoor amenities to create functional, aesthetic, and environmentally sustainable environments.",
+      "description": "Landscaping refers to the planning, design, installation, and maintenance of outdoor spaces, fincluding gardens, yards, parks, and commercial landscapes. It involves the strategic arrangement of plants, hardscape elements, water features, and other outdoor amenities to create functional, aesthetic, and environmentally sustainable environments."
     }
   ]
 }
