@@ -111,8 +111,9 @@
       "description": "Landscaping refers to the planning, design, installation, and maintenance of outdoor spaces, fincluding gardens, yards, parks, and commercial landscapes. It involves the strategic arrangement of plants, hardscape elements, water features, and other outdoor amenities to create functional, aesthetic, and environmentally sustainable environments."
     }
   ],
-  "projects": [
-    {
+  "projects": {
+    "sl-0": {
+      "id": "sl-0",
       "owner": "Manoj Dinesh & Family",
       "address": "Sunkadakatte, Bengaluru",
       "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
@@ -130,7 +131,8 @@
         "/projects/sl-1/9.jpg"
       ]
     },
-    {
+    "sl-1": {
+      "id": "sl-1",
       "owner": "Manoj Dinesh & Family",
       "address": "Sunkadakatte, Bengaluru",
       "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
@@ -148,7 +150,8 @@
         "/projects/sl-1/9.jpg"
       ]
     },
-    {
+    "sl-2": {
+      "id": "sl-2",
       "owner": "Manoj Dinesh & Family",
       "address": "Sunkadakatte, Bengaluru",
       "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
@@ -166,7 +169,8 @@
         "/projects/sl-1/9.jpg"
       ]
     },
-    {
+    "sl-3": {
+      "id": "sl-3",
       "owner": "Manoj Dinesh & Family",
       "address": "Sunkadakatte, Bengaluru",
       "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
@@ -184,7 +188,8 @@
         "/projects/sl-1/9.jpg"
       ]
     },
-    {
+    "sl-4": {
+      "id": "sl-4",
       "owner": "Manoj Dinesh & Family",
       "address": "Sunkadakatte, Bengaluru",
       "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
@@ -202,7 +207,8 @@
         "/projects/sl-1/9.jpg"
       ]
     },
-    {
+    "sl-5": {
+      "id": "sl-5",
       "owner": "Manoj Dinesh & Family",
       "address": "Sunkadakatte, Bengaluru",
       "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
@@ -220,7 +226,8 @@
         "/projects/sl-1/9.jpg"
       ]
     },
-    {
+    "sl-6": {
+      "id": "sl-6",
       "owner": "Manoj Dinesh & Family",
       "address": "Sunkadakatte, Bengaluru",
       "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
@@ -238,7 +245,8 @@
         "/projects/sl-1/9.jpg"
       ]
     },
-    {
+    "sl-7": {
+      "id": "sl-7",
       "owner": "Manoj Dinesh & Family",
       "address": "Sunkadakatte, Bengaluru",
       "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
@@ -256,7 +264,8 @@
         "/projects/sl-1/9.jpg"
       ]
     },
-    {
+    "sl-8": {
+      "id": "sl-8",
       "owner": "Manoj Dinesh & Family",
       "address": "Sunkadakatte, Bengaluru",
       "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
@@ -274,7 +283,7 @@
         "/projects/sl-1/9.jpg"
       ]
     }
-  ],
+  },
   "packages": [
     {
       "name": "",
@@ -339,6 +348,13 @@
       "partnersDesc": "",
       "benefits": "What you get ?",
       "benefitsDesc": "You can count on us on the following things and more."
+    },
+    "subHeaders": {
+      "owner": "Owner",
+      "plotSize": "Plot Size",
+      "constructionSize": "Built-up Area",
+      "address": "Address",
+      "description": "Description"
     }
   }
 }

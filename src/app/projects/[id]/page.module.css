@@ -1,0 +1,12 @@
+.projectDetailsContainer {
+  min-height: 90vh;
+  padding: 1.5rem 2rem;
+
+  .projectInfo {
+    padding: 2rem 0rem;
+
+    .infoText {
+      margin: 1rem auto;
+    }
+  }
+}
