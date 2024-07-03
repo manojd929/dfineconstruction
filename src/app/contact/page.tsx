@@ -6,27 +6,93 @@ import styles from './page.module.css'
 
 const Contact = () => {
   const { socialMap } = config
+  const { email, whatsapp, phone1, phone2, instagram, linkedin, business } = socialMap
+  const style = {
+    position: 'relative',
+    top: '0.4rem',
+    marginRight: '1rem'
+  }
+
   return (
     <div className={styles.contactContainer}>
       <div className={styles.contactInfo}>
         <Typography variant="h5" className={styles.infoHeader}>Bangalore Office</Typography>
         <Typography className={styles.infoText}>
-          {getSocialIcon(socialMap.email.type, 'icon')} {socialMap.email.displayText}
+          {getSocialIcon(email.type, style)}
+          <Link
+            color='inherit'
+            underline='none'
+            href={email.value}
+            target='__blank'
+          >
+            {email.displayText}
+          </Link>
         </Typography>
         <Typography className={styles.infoText}>
-          {getSocialIcon(socialMap.phone1.type, 'icon')} {socialMap.phone1.displayText}
+          {getSocialIcon(phone1.type, style)}
+          <Link
+            color='inherit'
+            underline='none'
+            href={phone1.value}
+            target='__blank'
+          >
+            {phone1.displayText}
+          </Link>
         </Typography>
         <Typography className={styles.infoText}>
-          {getSocialIcon(socialMap.phone2.type, 'icon')} {socialMap.phone2.displayText}
+          {getSocialIcon(phone2.type, style)}
+          <Link
+            color='inherit'
+            underline='none'
+            href={phone2.value}
+            target='__blank'
+          >
+            {phone2.displayText}
+          </Link>
         </Typography>
         <Typography className={styles.infoText}>
-          {getSocialIcon(socialMap.whatsapp.type, 'icon')} {socialMap.whatsapp.displayText}
+          {getSocialIcon(whatsapp.type, style)}
+          <Link
+            color='inherit'
+            underline='none'
+            href={whatsapp.value}
+            target='__blank'
+          >
+            {whatsapp.displayText}
+          </Link>
         </Typography>
         <Typography className={styles.infoText}>
-          {getSocialIcon(socialMap.instagram.type, 'icon')} {socialMap.instagram.displayText}
+          {getSocialIcon(instagram.type, style)}
+          <Link
+            color='inherit'
+            underline='none'
+            href={instagram.value}
+            target='__blank'
+          >
+            {instagram.displayText}
+          </Link>
         </Typography>
         <Typography className={styles.infoText}>
-          {getSocialIcon(socialMap.linkedin.type, 'icon')} {socialMap.linkedin.displayText}
+          {getSocialIcon(linkedin.type, style)}
+          <Link
+            color='inherit'
+            underline='none'
+            href={linkedin.value}
+            target='__blank'
+          >
+            {linkedin.displayText}
+          </Link>
+        </Typography>
+        <Typography className={styles.infoText}>
+          {getSocialIcon(business.type, style)}
+          <Link
+            color='inherit'
+            underline='none'
+            href={business.value}
+            target='__blank'
+          >
+            {business.displayText}
+          </Link>
         </Typography>
       </div>
       <div>

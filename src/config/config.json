@@ -54,18 +54,23 @@
     },
     "phone2": {
       "type": "phone",
-      "value": "tel:+918095141717",
-      "displayText": "+91-8095141717"
+      "value": "tel:+918892543483",
+      "displayText": "+91-8892543483"
     },
     "instagram": {
       "type": "instagram",
       "value": "https://www.instagram.com/defineconstructions/",
-      "displayText": ""
+      "displayText": "Instagram"
     },
     "linkedin": {
       "type": "linkedin",
       "value": "https://www.linkedin.com/in/vivek-m-551748195/",
-      "displayText": ""
+      "displayText": "LinkedIn"
+    },
+    "business": {
+      "type": "business",
+      "value": "https://maps.google.com",
+      "displayText": "#58, 80 Feet Road, B.E.M.L Layout, R.R nagar, Bengaluru - 560091"
     }
   },
   "services": [

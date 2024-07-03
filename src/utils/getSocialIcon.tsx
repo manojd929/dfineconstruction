@@ -3,19 +3,23 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import PhoneIcon from '@mui/icons-material/Phone';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import EmailIcon from '@mui/icons-material/Email';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import BusinessIcon from '@mui/icons-material/Business';
 
-const getSocialIcon = (type: string, id?: string): ReactNode => {
+const getSocialIcon = (type: string, style: any): ReactNode => {
   switch (type) {
     case 'whatsapp':
-      return <WhatsAppIcon className={id} />
+      return <WhatsAppIcon style={style} />
     case 'instagram':
-      return <InstagramIcon className={id} />
+      return <InstagramIcon style={style} />
     case 'phone':
-      return <PhoneIcon className={id} />
+      return <PhoneIcon style={style} />
     case 'email':
-      return <EmailIcon className={id} />
+      return <EmailIcon style={style} />
     case 'linkedin':
-      return <></>
+      return <LinkedInIcon style={style} />
+    case 'business':
+      return <BusinessIcon style={style} />
     default:
       return <></>
   }
