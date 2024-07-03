@@ -21,7 +21,13 @@ const HomeHeroImage = () => {
             </Link>
           </Button>
           <Button className={styles.primaryButton} variant='contained' size="large" color="primary">
-            {buttons.ourPackages}
+            <Link
+              color='inherit'
+              underline='none'
+              href={'#packages'}
+            >
+              {buttons.ourPackages}
+            </Link>
           </Button>
         </div>
       </div>

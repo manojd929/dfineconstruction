@@ -22,7 +22,7 @@ export default function Home() {
       <section>
         <ProjectsList />
       </section>
-      <section>
+      <section id="packages">
         <Packages />
       </section>
       <section>
