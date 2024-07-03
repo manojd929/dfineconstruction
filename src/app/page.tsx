@@ -54,7 +54,7 @@ export default function Home() {
           <Grid container spacing={6}>
             {services.map((svc, index) => (
               <Grid key={svc.name + index} item xs={12} md={4} lg={4} >
-                <Card variant="outlined" className={styles.serviceCard} raised>
+                <Card className={styles.serviceCard} elevation={1}>
                   <Image className={styles.serviceIcon} src={svc.icon} height={48} width={48} alt={svc.name + ' icon'} />
                   <CardHeader title={svc.name} className={styles.serviceCardHeader} />
                   <CardContent className={styles.serviceCardContent}>
@@ -79,7 +79,7 @@ export default function Home() {
               const { owner, address, description, images, plotSize } = project
               return (
                 <Grid key={owner + index} item xs={12} md={6} lg={4} >
-                  <Card variant="outlined" className={styles.projectsCard} raised>
+                  <Card className={styles.projectsCard} elevation={1}>
                     <Image
                       src={images[index]}
                       alt={owner + ' icon'}
@@ -126,7 +126,7 @@ export default function Home() {
           <Grid container spacing={2}>
             {benefits.map((bf, index) => (
               <Grid key={bf.name + index} item xs={12} md={3} lg={3} >
-                <Card variant="outlined" className={styles.benefitsCard} raised>
+                <Card className={styles.benefitsCard} elevation={1}>
                   <Image className={styles.benefitsIcon} src={bf.icon} height={48} width={48} alt={bf.name + ' icon'} />
                   <CardHeader title={bf.name} className={styles.benefitsCardHeader} />
                   <CardContent className={styles.benefitsCardContent}>

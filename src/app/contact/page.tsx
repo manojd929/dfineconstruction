@@ -9,7 +9,7 @@ const Contact = () => {
     <div className={styles.contactContainer}>
       {socialLinks.map((link: any, index: number) => (
         <Paper elevation={3} key={link.type + index}>
-          <Card variant='outlined' className={styles.contactCard}>
+          <Card className={styles.contactCard}>
             <Link
               color='inherit'
               underline='none'
