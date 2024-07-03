@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
-import Banner from '@/components/Banner';
-import Footer from "@/components/Footer";
+import Header from "@/components/atoms/Header";
+import Banner from '@/components/atoms/Banner';
+import Footer from "@/components/atoms/Footer";
 import styles from './page.module.css'
 import config from '@/config/config.json'
 

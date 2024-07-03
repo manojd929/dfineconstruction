@@ -284,6 +284,24 @@
     }
   ],
   "generic": {
-    "footerText": "2024. D-Fine Construction. All Rights Reserved"
+    "footerText": "2024. D-Fine Construction. All Rights Reserved",
+    "buttons": {
+      "talkToArchitects": "Talk To Our Architects",
+      "ourPackages": "Our Packages",
+      "submit": "Submit",
+      "getFreeEstimate": "Get Free Estimate",
+      "viewMore": "View More"
+    },
+    "headers": {
+      "estimate": "Looking to Construct a Home ? Find out what it costs ?",
+      "services": "All Construction Services Under One Roof",
+      "projects": "Our Recent Projects",
+      "projectsDesc": "Briefly look into our following projects which are completed and few ongoing",
+      "packages": "Our Construction Packages",
+      "partners": "Our Trusted Partners",
+      "partnersDesc": "",
+      "benefits": "What you get ?",
+      "benefitsDesc": "You can count on us on the following things and more."
+    }
   }
 }

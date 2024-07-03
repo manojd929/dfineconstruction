@@ -1,6 +1,6 @@
 import { Link } from '@mui/material';
 import CONFIG from '@/config/config.json'
-import SocialIcon from '@/components/SocialIcon';
+import SocialIcon from '@/components/atoms/SocialIcon';
 import styles from './banner.module.css'
 
 const Banner = () => {

@@ -90,12 +90,12 @@
   }
 }
 
-.recentProjectsContainer {
+.projectsContainer {
   padding: 4rem 4rem;
   min-height: 40vh;
   background-color: var(--grey-color);
 
-  .recentProjectsHeader, .recentProjectsDescription {
+  .projectsHeader, .projectsDescription {
     margin-bottom: 2rem;
   }
 
@@ -120,20 +120,10 @@
   }
 }
 
-.partnersContainer {
-  padding: 4rem 4rem;
-  min-height: 50vh;
-  background-color: var(--grey-color);
-
-  .partnersHeader {
-    margin-bottom: 2rem;
-  }
-}
-
 .benefitsContainer {
   padding: 4rem 4rem;
   min-height: 40vh;
-  background-color: var(--white-color);
+  background-color: var(--grey-color);
 
   .benefitsHeader, .benefitsDescription {
     margin-bottom: 2rem;
@@ -151,6 +141,16 @@
     .benefitsCardContent {
       text-align: left;
     }
+  }
+}
+
+.partnersContainer {
+  padding: 4rem 4rem;
+  min-height: 50vh;
+  background-color: var(--white-color);
+
+  .partnersHeader {
+    margin-bottom: 2rem;
   }
 }
 
