@@ -1,3 +1,27 @@
 .contactContainer {
   padding: 1.5rem 2rem;
+  min-height: 90vh;
+
+  .contactInfo {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: var(--grey-color);
+
+    .infoHeader {
+      text-align: center;
+      border-bottom: 1px solid black;
+    }
+
+    .infoText {
+      padding: 1rem;
+
+      .icon {
+        position: relative;
+        top: 1rem;
+        margin-right: 1rem;
+      }
+    }
+
+    min-height: 45vh;
+  }
 }

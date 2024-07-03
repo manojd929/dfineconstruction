@@ -2,7 +2,8 @@
   --primary-color: #50A4E2;
   --secondary-color: #214B8D;
   --white-color: #fff;
-  --grey-color: #fbfbfb;
+  --light-grey-color: #fbfbfb;
+  --grey-color: #fbfbfg;
   font-size: 16px;
   --mobile-breakpoint: 425px;
   --tablet-breakpoint: 768px;

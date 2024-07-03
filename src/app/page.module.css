@@ -22,13 +22,13 @@
     left: 50%;
     transform: translate(-50%, -20%);
     padding: 25%;
-  
+
     .motto {
       font-size: 2rem;
       font-weight: bolder;
       margin-bottom: 2rem;
     }
-  
+
     .description {
       font-size: 1.5rem;
       font-weight: bold;
@@ -93,9 +93,10 @@
 .projectsContainer {
   padding: 4rem 4rem;
   min-height: 40vh;
-  background-color: var(--grey-color);
+  background-color: var(--light-grey-color);
 
-  .projectsHeader, .projectsDescription {
+  .projectsHeader,
+  .projectsDescription {
     margin-bottom: 2rem;
   }
 
@@ -123,9 +124,10 @@
 .benefitsContainer {
   padding: 4rem 4rem;
   min-height: 40vh;
-  background-color: var(--grey-color);
+  background-color: var(--light-grey-color);
 
-  .benefitsHeader, .benefitsDescription {
+  .benefitsHeader,
+  .benefitsDescription {
     margin-bottom: 2rem;
   }
 
