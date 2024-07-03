@@ -2,8 +2,8 @@ import styles from './page.module.css'
 
 const About = () => {
   return (
-    <div>
-      About Page
+    <div className={styles.aboutContainer}>
+
     </div>
   )
 }
