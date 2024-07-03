@@ -36,15 +36,6 @@
       "displayText": ""
     }
   ],
-  "projects": [
-    {
-      "name": "",
-      "description": "",
-      "testimonial": "",
-      "address": "",
-      "images": ""
-    }
-  ],
   "services": [
     {
       "name": "Building Plan",
@@ -73,7 +64,7 @@
     {
       "name": "Interior Design",
       "icon": "/icons/interior.png",
-      "short_desc": "We focus on creating functional, aesthetically pleasing, and well-designed interior spaces that enhance the quality of life and user experience. We select furniture, fixtures, and equipment (FF&E) that suit the style, function, and scale of the interior space.", 
+      "short_desc": "We focus on creating functional, aesthetically pleasing, and well-designed interior spaces that enhance the quality of life and user experience. We select furniture, fixtures, and equipment (FF&E) that suit the style, function, and scale of the interior space.",
       "description": "We focus on creating functional, aesthetically pleasing, and well-designed interior spaces that enhance the quality of life and user experience. We select furniture, fixtures, and equipment (FF&E) that suit the style, function, and scale of the interior space. This includes choosing sofas, chairs, tables, beds, storage units, lighting fixtures, window treatments, and decorative accessories that enhance the aesthetic appeal and usability of the space. We consider factors such as ergonomics, accessibility, natural light, views, and architectural features when determining the optimal layout for each space."
     },
     {
@@ -81,6 +72,215 @@
       "icon": "/icons/landscaping.png",
       "short_desc": "Landscaping refers to the planning, design, installation, and maintenance of outdoor spaces, fincluding gardens, yards, parks, and commercial landscapes. It involves the strategic arrangement of plants, hardscape elements, water features, and other outdoor amenities to create functional, aesthetic, and environmentally sustainable environments.",
       "description": "Landscaping refers to the planning, design, installation, and maintenance of outdoor spaces, fincluding gardens, yards, parks, and commercial landscapes. It involves the strategic arrangement of plants, hardscape elements, water features, and other outdoor amenities to create functional, aesthetic, and environmentally sustainable environments."
+    }
+  ],
+  "projects": [
+    {
+      "owner": "Manoj Dinesh & Family",
+      "address": "Sunkadakatte, Bengaluru",
+      "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
+      "plotSize": "1200 sq.ft - 30 x 40 dimension",
+      "constructionSize": "4800 sq.ft",
+      "images": [
+        "/projects/sl-1/1.jpg",
+        "/projects/sl-1/2.jpg",
+        "/projects/sl-1/3.jpg",
+        "/projects/sl-1/4.jpg",
+        "/projects/sl-1/5.jpg",
+        "/projects/sl-1/6.jpg",
+        "/projects/sl-1/7.jpg",
+        "/projects/sl-1/8.jpg",
+        "/projects/sl-1/9.jpg"
+      ]
+    },
+    {
+      "owner": "Manoj Dinesh & Family",
+      "address": "Sunkadakatte, Bengaluru",
+      "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
+      "plotSize": "1200 sq.ft - 30 x 40 dimension",
+      "constructionSize": "4800 sq.ft",
+      "images": [
+        "/projects/sl-1/1.jpg",
+        "/projects/sl-1/2.jpg",
+        "/projects/sl-1/3.jpg",
+        "/projects/sl-1/4.jpg",
+        "/projects/sl-1/5.jpg",
+        "/projects/sl-1/6.jpg",
+        "/projects/sl-1/7.jpg",
+        "/projects/sl-1/8.jpg",
+        "/projects/sl-1/9.jpg"
+      ]
+    },
+    {
+      "owner": "Manoj Dinesh & Family",
+      "address": "Sunkadakatte, Bengaluru",
+      "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
+      "plotSize": "1200 sq.ft - 30 x 40 dimension",
+      "constructionSize": "4800 sq.ft",
+      "images": [
+        "/projects/sl-1/1.jpg",
+        "/projects/sl-1/2.jpg",
+        "/projects/sl-1/3.jpg",
+        "/projects/sl-1/4.jpg",
+        "/projects/sl-1/5.jpg",
+        "/projects/sl-1/6.jpg",
+        "/projects/sl-1/7.jpg",
+        "/projects/sl-1/8.jpg",
+        "/projects/sl-1/9.jpg"
+      ]
+    },
+    {
+      "owner": "Manoj Dinesh & Family",
+      "address": "Sunkadakatte, Bengaluru",
+      "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
+      "plotSize": "1200 sq.ft - 30 x 40 dimension",
+      "constructionSize": "4800 sq.ft",
+      "images": [
+        "/projects/sl-1/1.jpg",
+        "/projects/sl-1/2.jpg",
+        "/projects/sl-1/3.jpg",
+        "/projects/sl-1/4.jpg",
+        "/projects/sl-1/5.jpg",
+        "/projects/sl-1/6.jpg",
+        "/projects/sl-1/7.jpg",
+        "/projects/sl-1/8.jpg",
+        "/projects/sl-1/9.jpg"
+      ]
+    },
+    {
+      "owner": "Manoj Dinesh & Family",
+      "address": "Sunkadakatte, Bengaluru",
+      "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
+      "plotSize": "1200 sq.ft - 30 x 40 dimension",
+      "constructionSize": "4800 sq.ft",
+      "images": [
+        "/projects/sl-1/1.jpg",
+        "/projects/sl-1/2.jpg",
+        "/projects/sl-1/3.jpg",
+        "/projects/sl-1/4.jpg",
+        "/projects/sl-1/5.jpg",
+        "/projects/sl-1/6.jpg",
+        "/projects/sl-1/7.jpg",
+        "/projects/sl-1/8.jpg",
+        "/projects/sl-1/9.jpg"
+      ]
+    },
+    {
+      "owner": "Manoj Dinesh & Family",
+      "address": "Sunkadakatte, Bengaluru",
+      "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
+      "plotSize": "1200 sq.ft - 30 x 40 dimension",
+      "constructionSize": "4800 sq.ft",
+      "images": [
+        "/projects/sl-1/1.jpg",
+        "/projects/sl-1/2.jpg",
+        "/projects/sl-1/3.jpg",
+        "/projects/sl-1/4.jpg",
+        "/projects/sl-1/5.jpg",
+        "/projects/sl-1/6.jpg",
+        "/projects/sl-1/7.jpg",
+        "/projects/sl-1/8.jpg",
+        "/projects/sl-1/9.jpg"
+      ]
+    },
+    {
+      "owner": "Manoj Dinesh & Family",
+      "address": "Sunkadakatte, Bengaluru",
+      "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
+      "plotSize": "1200 sq.ft - 30 x 40 dimension",
+      "constructionSize": "4800 sq.ft",
+      "images": [
+        "/projects/sl-1/1.jpg",
+        "/projects/sl-1/2.jpg",
+        "/projects/sl-1/3.jpg",
+        "/projects/sl-1/4.jpg",
+        "/projects/sl-1/5.jpg",
+        "/projects/sl-1/6.jpg",
+        "/projects/sl-1/7.jpg",
+        "/projects/sl-1/8.jpg",
+        "/projects/sl-1/9.jpg"
+      ]
+    },
+    {
+      "owner": "Manoj Dinesh & Family",
+      "address": "Sunkadakatte, Bengaluru",
+      "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
+      "plotSize": "1200 sq.ft - 30 x 40 dimension",
+      "constructionSize": "4800 sq.ft",
+      "images": [
+        "/projects/sl-1/1.jpg",
+        "/projects/sl-1/2.jpg",
+        "/projects/sl-1/3.jpg",
+        "/projects/sl-1/4.jpg",
+        "/projects/sl-1/5.jpg",
+        "/projects/sl-1/6.jpg",
+        "/projects/sl-1/7.jpg",
+        "/projects/sl-1/8.jpg",
+        "/projects/sl-1/9.jpg"
+      ]
+    },
+    {
+      "owner": "Manoj Dinesh & Family",
+      "address": "Sunkadakatte, Bengaluru",
+      "description": "1 unit of 3 BHK & 4 units of 1 BHK for Rental Purpose",
+      "plotSize": "1200 sq.ft - 30 x 40 dimension",
+      "constructionSize": "4800 sq.ft",
+      "images": [
+        "/projects/sl-1/1.jpg",
+        "/projects/sl-1/2.jpg",
+        "/projects/sl-1/3.jpg",
+        "/projects/sl-1/4.jpg",
+        "/projects/sl-1/5.jpg",
+        "/projects/sl-1/6.jpg",
+        "/projects/sl-1/7.jpg",
+        "/projects/sl-1/8.jpg",
+        "/projects/sl-1/9.jpg"
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "name": "",
+      "description": "",
+      "data": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "data": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "data": []
+    }
+  ],
+  "benefits": [
+    {
+      "name": "End to End Ownership",
+      "description": "Single point of contact for designing, architecture, building, interior designing, quality checks and more.",
+      "icon": "/benefits/e2e-owner.png"
+    },
+    {
+      "name": "Quality Checks",
+      "description": "Quality inspection at every stage of development ensuring transparency",
+      "icon": "/benefits/quality-checks.png"
+    },
+    {
+      "name": "Budget upfront",
+      "description": "Clear idea of total budget and convenient payment schedule upfront without any false promises or surprises during development.",
+      "icon": "/benefits/budget-friendly.png"
+    },
+    {
+      "name": "Timely updates",
+      "description": "There will be next to no delay in what was committed to the client during initial contract signing.",
+      "icon": "/benefits/timely-updates.png"
+    }
+  ],
+  "partners": [
+    {
+      "name": "",
+      "icon": ""
     }
   ],
   "generic": {

@@ -70,7 +70,7 @@ const Header = (props: any) => {
             />
           </Link>
           <Typography
-            variant="h6"
+            variant="h5"
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >

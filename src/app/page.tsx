@@ -4,7 +4,7 @@ import { Button, Card, CardContent, CardHeader, Grid, Typography, Link } from "@
 import styles from "./page.module.css";
 
 export default function Home() {
-  const { company, services, social } = config
+  const { company, services, social, benefits, projects } = config
   return (
     <div className={styles.main}>
       <section>
@@ -69,31 +69,75 @@ export default function Home() {
       <section>
         <div className={styles.recentProjectsContainer}>
           <Typography variant="h4" align="center" className={styles.recentProjectsHeader}>
-              Our Recent Projects
+            Our Recent Projects
           </Typography>
+          <Typography variant="h6" align="center" className={styles.recentProjectsDescription}>
+            Briefly look into our following projects which are completed and few ongoing
+          </Typography>
+          <Grid container spacing={6}>
+            {projects.map((project, index) => {
+              const { owner, address, description, images, plotSize } = project
+              return (
+                <Grid key={owner + index} item xs={12} md={6} lg={4} >
+                  <Card variant="outlined" className={styles.projectsCard} raised>
+                    <Image
+                      src={images[index]}
+                      alt={owner + ' icon'}
+                      className={styles.projectsCardImage}
+                      height={0}
+                      width={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: '20rem' }}
+                    />
+                    <CardHeader title={owner} />
+                    <CardContent className={styles.projectsCardContent}>
+                      <Typography>Address: {address}</Typography>
+                      <Typography>{description} on {plotSize} plot</Typography>
+                    </CardContent>
+                  </Card>
+                </Grid>
+              )
+            })}
+          </Grid>
         </div>
       </section>
       <section>
         <div className={styles.packagesContainer}>
           <Typography variant="h4" align="center" className={styles.packagesHeader}>
-              Our Construction Packages
+            Our Construction Packages
           </Typography>
         </div>
       </section>
       <section>
         <div className={styles.partnersContainer}>
           <Typography variant="h4" align="center" className={styles.partnersHeader}>
-              Our Trusted Partners
+            Our Trusted Partners
           </Typography>
         </div>
       </section>
       <section>
         <div className={styles.benefitsContainer}>
           <Typography variant="h4" align="center" className={styles.benefitsHeader}>
-              What you get ?
+            What you get ?
           </Typography>
+          <Typography variant="h6" align="center" className={styles.benefitsDescription}>
+            You can count on us on the following things and more.
+          </Typography>
+          <Grid container spacing={2}>
+            {benefits.map((bf, index) => (
+              <Grid key={bf.name + index} item xs={12} md={3} lg={3} >
+                <Card variant="outlined" className={styles.benefitsCard} raised>
+                  <Image className={styles.benefitsIcon} src={bf.icon} height={48} width={48} alt={bf.name + ' icon'} />
+                  <CardHeader title={bf.name} className={styles.benefitsCardHeader} />
+                  <CardContent className={styles.benefitsCardContent}>
+                    {bf.description}
+                  </CardContent>
+                </Card>
+              </Grid>
+            ))}
+          </Grid>
         </div>
-        </section>
+      </section>
     </div >
   );
 }

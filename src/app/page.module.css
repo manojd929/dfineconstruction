@@ -92,11 +92,21 @@
 
 .recentProjectsContainer {
   padding: 4rem 4rem;
-  min-height: 90vh;
+  min-height: 40vh;
   background-color: var(--grey-color);
 
-  .recentProjectsHeader {
+  .recentProjectsHeader, .recentProjectsDescription {
     margin-bottom: 2rem;
+  }
+
+  .projectsCard {
+    text-align: center;
+    min-height: 24rem;
+
+    .projectsCardContent {
+      padding: 1rem;
+      text-align: left;
+    }
   }
 }
 
@@ -125,8 +135,22 @@
   min-height: 40vh;
   background-color: var(--white-color);
 
-  .benefitsHeader {
+  .benefitsHeader, .benefitsDescription {
     margin-bottom: 2rem;
+  }
+
+  .benefitsCard {
+    padding: 1rem;
+    text-align: center;
+    min-height: 16rem;
+
+    .benefitsCardHeader {
+      text-align: center;
+    }
+
+    .benefitsCardContent {
+      text-align: left;
+    }
   }
 }
 
