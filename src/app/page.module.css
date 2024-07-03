@@ -157,28 +157,92 @@
 }
 
 /* Tablet */
-@media (max-width: 768px) {
-  .motto {
-    font-size: 1rem;
+@media (min-width: 425.1px) and (max-width: 768px) {
+  .homeHeroImageContainer {
+    min-height: 80vh;
+    padding: 1.5rem;
+
+    .homeInfo {
+      text-align: center;
+      position: relative;
+      top: 50%;
+      left: 0%;
+      transform: translate(0%, 0%);
+      padding: 1rem;
+
+      .motto {
+        font-size: 2rem;
+        font-weight: bolder;
+        margin-bottom: 2rem;
+      }
+
+      .description {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+      }
+    }
   }
 
-  .homeHeroImageContainer {
-    min-height: 85vh;
-    padding: 1.5rem;
+  .estimateContainer {
+    .costQuestion {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: var(--white-color);
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
   }
 }
 
 
 /* Mobile */
-@media (max-width: 425px) {
-  .motto {
-    font-size: 0.8rem;
+@media (min-width: 250px) and (max-width: 425px) {
+  .homeHeroImageContainer {
+    min-height: 80vh;
+    padding: 2rem 1.75rem;
+
+    .homeInfo {
+      text-align: center;
+      position: relative;
+      top: 0%;
+      left: 0%;
+      transform: translate(0%, 0%);
+      padding: 1rem;
+
+      .motto {
+        font-size: 1.5rem;
+        font-weight: bolder;
+        margin-bottom: 2rem;
+      }
+
+      .description {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+      }
+    }
   }
 
   .estimateContainer {
     .costQuestion {
-      top: 2rem;
-      font-size: 1.4rem;
+      position: absolute;
+      top: 25%;
+      left: 0%;
+      transform: none;
+      color: var(--white-color);
+      font-size: 1.5rem;
+      font-weight: 500;
     }
+  }
+
+  .servicesContainer,
+  .projectsContainer,
+  .packagesContainer,
+  .benefitsContainer {
+    margin-top: 1.5rem;
+    padding: 2rem;
   }
 }
