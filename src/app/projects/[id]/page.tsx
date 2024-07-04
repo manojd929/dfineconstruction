@@ -1,8 +1,8 @@
 'use client'
+import config from '@/config/config.json'
+import { Grid, Typography } from '@mui/material'
 import Image from 'next/image'
 import { useParams } from 'next/navigation'
-import config from '@/config/config.json'
-import { Typography, Grid } from '@mui/material'
 import styles from './page.module.css'
 
 const ProjectDetails = () => {

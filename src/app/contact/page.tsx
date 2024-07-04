@@ -1,7 +1,7 @@
-import { Link, Card, Typography } from '@mui/material'
+import getSocialIcon from '@/components/atoms/SocialIcon'
 import Estimate from '@/components/estimate'
 import config from '@/config/config.json'
-import getSocialIcon from '@/components/atoms/SocialIcon'
+import { Link, Typography } from '@mui/material'
 import styles from './page.module.css'
 
 const Contact = () => {

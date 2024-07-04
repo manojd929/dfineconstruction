@@ -1,10 +1,10 @@
-import HomeHeroImage from '@/components/homeHeroImage'
-import Estimate from '@/components/estimate';
-import Services from '@/components/services';
-import ProjectsList from '@/components/projectsList';
-import Packages from '@/components/packages';
 import Benefits from '@/components/benefits';
-import Partners from '@/components/partners'
+import Estimate from '@/components/estimate';
+import HomeHeroImage from '@/components/homeHeroImage';
+import Packages from '@/components/packages';
+import Partners from '@/components/partners';
+import ProjectsList from '@/components/projectsList';
+import Services from '@/components/services';
 import styles from "./page.module.css";
 
 export default function Home() {

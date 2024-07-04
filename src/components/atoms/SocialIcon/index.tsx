@@ -1,10 +1,10 @@
-import { ReactNode } from 'react';
+import BusinessIcon from '@mui/icons-material/Business';
+import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import PhoneIcon from '@mui/icons-material/Phone';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import EmailIcon from '@mui/icons-material/Email';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import BusinessIcon from '@mui/icons-material/Business';
+import { ReactNode } from 'react';
 
 const getSocialIcon = (type: string, style?: any): ReactNode => {
   switch (type) {

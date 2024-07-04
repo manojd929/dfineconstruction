@@ -1,14 +1,14 @@
 'use client';
-import React from 'react'
-import Link from 'next/link';
-import Image from 'next/image';
-import { usePathname } from 'next/navigation';
-import { Divider, AppBar, Drawer, Button, Box, Typography, List, ListItem, ListItemButton, ListItemText, Toolbar, IconButton } from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
-import CompanyLogoImage from 'public/logo.png'
+import CONFIG from '@/config/config.json';
 import { NAV_ITEMS } from "@/constants";
-import CONFIG from '@/config/config.json'
-import styles from './header.module.css'
+import MenuIcon from '@mui/icons-material/Menu';
+import { AppBar, Box, Button, Divider, Drawer, IconButton, List, ListItem, ListItemButton, ListItemText, Toolbar, Typography } from '@mui/material';
+import Image from 'next/image';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import CompanyLogoImage from 'public/logo.png';
+import React from 'react';
+import styles from './header.module.css';
 
 const DRAWER_WIDTH = 400
 

@@ -1,9 +1,9 @@
-import styles from './page.module.css'
 import ServicesList from '@/components/services'
+import styles from './page.module.css'
 
 const Services = () => {
   return (
-    <div className={styles.projectsContainer}>
+    <div className={styles.servicesContainer}>
       <ServicesList />
     </div>
   )

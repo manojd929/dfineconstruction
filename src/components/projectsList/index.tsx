@@ -1,8 +1,8 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import { Grid, Card, CardHeader, CardContent, Typography } from '@mui/material'
 import styles from '@/app/page.module.css'
 import config from '@/config/config.json'
+import { Card, CardContent, CardHeader, Grid, Typography } from '@mui/material'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const ProjectsList = () => {
   const { generic, projects } = config

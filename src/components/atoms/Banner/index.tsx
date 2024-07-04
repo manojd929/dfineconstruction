@@ -1,7 +1,7 @@
-import { Link } from '@mui/material';
-import CONFIG from '@/config/config.json'
 import getSocialIcon from '@/components/atoms/SocialIcon';
-import styles from './banner.module.css'
+import CONFIG from '@/config/config.json';
+import { Link } from '@mui/material';
+import styles from './banner.module.css';
 
 const Banner = () => {
   const { social } = CONFIG

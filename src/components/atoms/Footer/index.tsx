@@ -6,7 +6,7 @@ const Footer = () => {
   const { footerText } = generic
   return (
     <footer className={styles.footer}>
-        <span>&copy; {footerText}</span>
+      <span>&copy; {footerText}</span>
     </footer>
   )
 }

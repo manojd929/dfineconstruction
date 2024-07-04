@@ -1,7 +1,7 @@
-import Image from 'next/image'
 import styles from '@/app/page.module.css'
 import config from '@/config/config.json'
-import { Card, Grid, CardHeader, CardContent, Typography } from '@mui/material'
+import { Card, CardContent, CardHeader, Grid, Typography } from '@mui/material'
+import Image from 'next/image'
 
 const Services = () => {
   const { generic, services } = config

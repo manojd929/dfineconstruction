@@ -1,11 +1,13 @@
+import Banner from '@/components/atoms/Banner';
+import Footer from "@/components/atoms/Footer";
+import Header from "@/components/atoms/Header";
+import config from '@/config/config.json';
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/atoms/Header";
-import Banner from '@/components/atoms/Banner';
-import Footer from "@/components/atoms/Footer";
-import styles from './page.module.css'
-import config from '@/config/config.json'
+import styles from './page.module.css';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,6 +36,8 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
